@@ -1,0 +1,24 @@
+h1 {
+  text-align: center;
+}
+
+.card {
+  padding: 16px;
+  background: plum;
+  border: 4px solid indigo;
+  grid-template-columns: repeat(auto-fill, minmax(200px 1fr));
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+.card .content {
+  padding: 10px;
+  flex: 1 1 0;
+}
+
+.card footer {
+  border: 5px solid indigo;
+  background-color: rgb(177, 101, 231);
+  text-align: center;
+}
